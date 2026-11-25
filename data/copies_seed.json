@@ -1,0 +1,1409 @@
+[
+  {
+    "id": "CP-B001-A",
+    "book_id": "B001",
+    "copy_code": "VHVN-001-A",
+    "status": "borrowed",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B001-B",
+    "book_id": "B001",
+    "copy_code": "VHVN-001-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B001-C",
+    "book_id": "B001",
+    "copy_code": "VHVN-001-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B002-A",
+    "book_id": "B002",
+    "copy_code": "VHVN-002-A",
+    "status": "borrowed",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B003-A",
+    "book_id": "B003",
+    "copy_code": "VHVN-003-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B003-B",
+    "book_id": "B003",
+    "copy_code": "VHVN-003-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B004-A",
+    "book_id": "B004",
+    "copy_code": "VHVN-004-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B004-B",
+    "book_id": "B004",
+    "copy_code": "VHVN-004-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B004-C",
+    "book_id": "B004",
+    "copy_code": "VHVN-004-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B005-A",
+    "book_id": "B005",
+    "copy_code": "VHVN-005-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B005-B",
+    "book_id": "B005",
+    "copy_code": "VHVN-005-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B006-A",
+    "book_id": "B006",
+    "copy_code": "VHVN-006-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B007-A",
+    "book_id": "B007",
+    "copy_code": "VHVN-007-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B007-B",
+    "book_id": "B007",
+    "copy_code": "VHVN-007-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B007-C",
+    "book_id": "B007",
+    "copy_code": "VHVN-007-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B008-A",
+    "book_id": "B008",
+    "copy_code": "VHVN-008-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B009-A",
+    "book_id": "B009",
+    "copy_code": "VHVN-009-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B009-B",
+    "book_id": "B009",
+    "copy_code": "VHVN-009-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B010-A",
+    "book_id": "B010",
+    "copy_code": "VHVN-010-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B010-B",
+    "book_id": "B010",
+    "copy_code": "VHVN-010-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B010-C",
+    "book_id": "B010",
+    "copy_code": "VHVN-010-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B011-A",
+    "book_id": "B011",
+    "copy_code": "VHVN-011-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B011-B",
+    "book_id": "B011",
+    "copy_code": "VHVN-011-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B012-A",
+    "book_id": "B012",
+    "copy_code": "VHVN-012-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B013-A",
+    "book_id": "B013",
+    "copy_code": "VHNN-013-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B013-B",
+    "book_id": "B013",
+    "copy_code": "VHNN-013-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B013-C",
+    "book_id": "B013",
+    "copy_code": "VHNN-013-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B014-A",
+    "book_id": "B014",
+    "copy_code": "VHNN-014-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B015-A",
+    "book_id": "B015",
+    "copy_code": "VHNN-015-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B015-B",
+    "book_id": "B015",
+    "copy_code": "VHNN-015-B",
+    "status": "maintenance",
+    "condition_note": "Bìa bong nhẹ, đang dán gia cố tại kho thư viện"
+  },
+  {
+    "id": "CP-B016-A",
+    "book_id": "B016",
+    "copy_code": "VHNN-016-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B016-B",
+    "book_id": "B016",
+    "copy_code": "VHNN-016-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B016-C",
+    "book_id": "B016",
+    "copy_code": "VHNN-016-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B017-A",
+    "book_id": "B017",
+    "copy_code": "VHNN-017-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B017-B",
+    "book_id": "B017",
+    "copy_code": "VHNN-017-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B018-A",
+    "book_id": "B018",
+    "copy_code": "VHNN-018-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B019-A",
+    "book_id": "B019",
+    "copy_code": "VHNN-019-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B019-B",
+    "book_id": "B019",
+    "copy_code": "VHNN-019-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B019-C",
+    "book_id": "B019",
+    "copy_code": "VHNN-019-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B020-A",
+    "book_id": "B020",
+    "copy_code": "VHNN-020-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B021-A",
+    "book_id": "B021",
+    "copy_code": "VHNN-021-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B021-B",
+    "book_id": "B021",
+    "copy_code": "VHNN-021-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B022-A",
+    "book_id": "B022",
+    "copy_code": "VHNN-022-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B022-B",
+    "book_id": "B022",
+    "copy_code": "VHNN-022-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B022-C",
+    "book_id": "B022",
+    "copy_code": "VHNN-022-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B023-A",
+    "book_id": "B023",
+    "copy_code": "TOAN-023-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B023-B",
+    "book_id": "B023",
+    "copy_code": "TOAN-023-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B024-A",
+    "book_id": "B024",
+    "copy_code": "TOAN-024-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B025-A",
+    "book_id": "B025",
+    "copy_code": "TOAN-025-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B025-B",
+    "book_id": "B025",
+    "copy_code": "TOAN-025-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B025-C",
+    "book_id": "B025",
+    "copy_code": "TOAN-025-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B026-A",
+    "book_id": "B026",
+    "copy_code": "TOAN-026-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B027-A",
+    "book_id": "B027",
+    "copy_code": "TOAN-027-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B027-B",
+    "book_id": "B027",
+    "copy_code": "TOAN-027-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B028-A",
+    "book_id": "B028",
+    "copy_code": "TOAN-028-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B028-B",
+    "book_id": "B028",
+    "copy_code": "TOAN-028-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B028-C",
+    "book_id": "B028",
+    "copy_code": "TOAN-028-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B029-A",
+    "book_id": "B029",
+    "copy_code": "TOAN-029-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B029-B",
+    "book_id": "B029",
+    "copy_code": "TOAN-029-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B030-A",
+    "book_id": "B030",
+    "copy_code": "TOAN-030-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B031-A",
+    "book_id": "B031",
+    "copy_code": "TOAN-031-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B031-B",
+    "book_id": "B031",
+    "copy_code": "TOAN-031-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B031-C",
+    "book_id": "B031",
+    "copy_code": "TOAN-031-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B032-A",
+    "book_id": "B032",
+    "copy_code": "TOAN-032-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B033-A",
+    "book_id": "B033",
+    "copy_code": "VATLY-033-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B033-B",
+    "book_id": "B033",
+    "copy_code": "VATLY-033-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B034-A",
+    "book_id": "B034",
+    "copy_code": "VATLY-034-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B034-B",
+    "book_id": "B034",
+    "copy_code": "VATLY-034-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B034-C",
+    "book_id": "B034",
+    "copy_code": "VATLY-034-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B035-A",
+    "book_id": "B035",
+    "copy_code": "VATLY-035-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B035-B",
+    "book_id": "B035",
+    "copy_code": "VATLY-035-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B036-A",
+    "book_id": "B036",
+    "copy_code": "VATLY-036-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B037-A",
+    "book_id": "B037",
+    "copy_code": "VATLY-037-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B037-B",
+    "book_id": "B037",
+    "copy_code": "VATLY-037-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B037-C",
+    "book_id": "B037",
+    "copy_code": "VATLY-037-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B038-A",
+    "book_id": "B038",
+    "copy_code": "VATLY-038-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B039-A",
+    "book_id": "B039",
+    "copy_code": "VATLY-039-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B039-B",
+    "book_id": "B039",
+    "copy_code": "VATLY-039-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B040-A",
+    "book_id": "B040",
+    "copy_code": "VATLY-040-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B040-B",
+    "book_id": "B040",
+    "copy_code": "VATLY-040-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B040-C",
+    "book_id": "B040",
+    "copy_code": "VATLY-040-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B041-A",
+    "book_id": "B041",
+    "copy_code": "VATLY-041-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B041-B",
+    "book_id": "B041",
+    "copy_code": "VATLY-041-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B042-A",
+    "book_id": "B042",
+    "copy_code": "VATLY-042-A",
+    "status": "maintenance",
+    "condition_note": "Bìa bong nhẹ, đang dán gia cố tại kho thư viện"
+  },
+  {
+    "id": "CP-B043-A",
+    "book_id": "B043",
+    "copy_code": "HOASINH-043-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B043-B",
+    "book_id": "B043",
+    "copy_code": "HOASINH-043-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B043-C",
+    "book_id": "B043",
+    "copy_code": "HOASINH-043-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B044-A",
+    "book_id": "B044",
+    "copy_code": "HOASINH-044-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B045-A",
+    "book_id": "B045",
+    "copy_code": "HOASINH-045-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B045-B",
+    "book_id": "B045",
+    "copy_code": "HOASINH-045-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B046-A",
+    "book_id": "B046",
+    "copy_code": "HOASINH-046-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B046-B",
+    "book_id": "B046",
+    "copy_code": "HOASINH-046-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B046-C",
+    "book_id": "B046",
+    "copy_code": "HOASINH-046-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B047-A",
+    "book_id": "B047",
+    "copy_code": "HOASINH-047-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B047-B",
+    "book_id": "B047",
+    "copy_code": "HOASINH-047-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B048-A",
+    "book_id": "B048",
+    "copy_code": "HOASINH-048-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B049-A",
+    "book_id": "B049",
+    "copy_code": "HOASINH-049-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B049-B",
+    "book_id": "B049",
+    "copy_code": "HOASINH-049-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B049-C",
+    "book_id": "B049",
+    "copy_code": "HOASINH-049-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B050-A",
+    "book_id": "B050",
+    "copy_code": "HOASINH-050-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B051-A",
+    "book_id": "B051",
+    "copy_code": "HOASINH-051-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B051-B",
+    "book_id": "B051",
+    "copy_code": "HOASINH-051-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B052-A",
+    "book_id": "B052",
+    "copy_code": "HOASINH-052-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B052-B",
+    "book_id": "B052",
+    "copy_code": "HOASINH-052-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B052-C",
+    "book_id": "B052",
+    "copy_code": "HOASINH-052-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B053-A",
+    "book_id": "B053",
+    "copy_code": "TINHOC-053-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B053-B",
+    "book_id": "B053",
+    "copy_code": "TINHOC-053-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B054-A",
+    "book_id": "B054",
+    "copy_code": "TINHOC-054-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B055-A",
+    "book_id": "B055",
+    "copy_code": "TINHOC-055-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B055-B",
+    "book_id": "B055",
+    "copy_code": "TINHOC-055-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B055-C",
+    "book_id": "B055",
+    "copy_code": "TINHOC-055-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B056-A",
+    "book_id": "B056",
+    "copy_code": "TINHOC-056-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B057-A",
+    "book_id": "B057",
+    "copy_code": "TINHOC-057-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B057-B",
+    "book_id": "B057",
+    "copy_code": "TINHOC-057-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B058-A",
+    "book_id": "B058",
+    "copy_code": "TINHOC-058-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B058-B",
+    "book_id": "B058",
+    "copy_code": "TINHOC-058-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B058-C",
+    "book_id": "B058",
+    "copy_code": "TINHOC-058-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B059-A",
+    "book_id": "B059",
+    "copy_code": "TINHOC-059-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B059-B",
+    "book_id": "B059",
+    "copy_code": "TINHOC-059-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B060-A",
+    "book_id": "B060",
+    "copy_code": "TINHOC-060-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B061-A",
+    "book_id": "B061",
+    "copy_code": "TINHOC-061-A",
+    "status": "borrowed",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B061-B",
+    "book_id": "B061",
+    "copy_code": "TINHOC-061-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B061-C",
+    "book_id": "B061",
+    "copy_code": "TINHOC-061-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B062-A",
+    "book_id": "B062",
+    "copy_code": "TINHOC-062-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B063-A",
+    "book_id": "B063",
+    "copy_code": "SUDIA-063-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B063-B",
+    "book_id": "B063",
+    "copy_code": "SUDIA-063-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B064-A",
+    "book_id": "B064",
+    "copy_code": "SUDIA-064-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B064-B",
+    "book_id": "B064",
+    "copy_code": "SUDIA-064-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B064-C",
+    "book_id": "B064",
+    "copy_code": "SUDIA-064-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B065-A",
+    "book_id": "B065",
+    "copy_code": "SUDIA-065-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B065-B",
+    "book_id": "B065",
+    "copy_code": "SUDIA-065-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B066-A",
+    "book_id": "B066",
+    "copy_code": "SUDIA-066-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B067-A",
+    "book_id": "B067",
+    "copy_code": "SUDIA-067-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B067-B",
+    "book_id": "B067",
+    "copy_code": "SUDIA-067-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B067-C",
+    "book_id": "B067",
+    "copy_code": "SUDIA-067-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B068-A",
+    "book_id": "B068",
+    "copy_code": "SUDIA-068-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B069-A",
+    "book_id": "B069",
+    "copy_code": "SUDIA-069-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B069-B",
+    "book_id": "B069",
+    "copy_code": "SUDIA-069-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B070-A",
+    "book_id": "B070",
+    "copy_code": "SUDIA-070-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B070-B",
+    "book_id": "B070",
+    "copy_code": "SUDIA-070-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B070-C",
+    "book_id": "B070",
+    "copy_code": "SUDIA-070-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B071-A",
+    "book_id": "B071",
+    "copy_code": "SUDIA-071-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B071-B",
+    "book_id": "B071",
+    "copy_code": "SUDIA-071-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B072-A",
+    "book_id": "B072",
+    "copy_code": "SUDIA-072-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B073-A",
+    "book_id": "B073",
+    "copy_code": "KYNANG-073-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B073-B",
+    "book_id": "B073",
+    "copy_code": "KYNANG-073-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B073-C",
+    "book_id": "B073",
+    "copy_code": "KYNANG-073-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B074-A",
+    "book_id": "B074",
+    "copy_code": "KYNANG-074-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B075-A",
+    "book_id": "B075",
+    "copy_code": "KYNANG-075-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B075-B",
+    "book_id": "B075",
+    "copy_code": "KYNANG-075-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B076-A",
+    "book_id": "B076",
+    "copy_code": "KYNANG-076-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B076-B",
+    "book_id": "B076",
+    "copy_code": "KYNANG-076-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B076-C",
+    "book_id": "B076",
+    "copy_code": "KYNANG-076-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B077-A",
+    "book_id": "B077",
+    "copy_code": "KYNANG-077-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B077-B",
+    "book_id": "B077",
+    "copy_code": "KYNANG-077-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B078-A",
+    "book_id": "B078",
+    "copy_code": "KYNANG-078-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B079-A",
+    "book_id": "B079",
+    "copy_code": "KYNANG-079-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B079-B",
+    "book_id": "B079",
+    "copy_code": "KYNANG-079-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B079-C",
+    "book_id": "B079",
+    "copy_code": "KYNANG-079-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B080-A",
+    "book_id": "B080",
+    "copy_code": "KYNANG-080-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B081-A",
+    "book_id": "B081",
+    "copy_code": "KYNANG-081-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B081-B",
+    "book_id": "B081",
+    "copy_code": "KYNANG-081-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B082-A",
+    "book_id": "B082",
+    "copy_code": "KYNANG-082-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B082-B",
+    "book_id": "B082",
+    "copy_code": "KYNANG-082-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B082-C",
+    "book_id": "B082",
+    "copy_code": "KYNANG-082-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B083-A",
+    "book_id": "B083",
+    "copy_code": "KYNANG-083-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B083-B",
+    "book_id": "B083",
+    "copy_code": "KYNANG-083-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B084-A",
+    "book_id": "B084",
+    "copy_code": "KYNANG-084-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B085-A",
+    "book_id": "B085",
+    "copy_code": "KHTT-085-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B085-B",
+    "book_id": "B085",
+    "copy_code": "KHTT-085-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B085-C",
+    "book_id": "B085",
+    "copy_code": "KHTT-085-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B086-A",
+    "book_id": "B086",
+    "copy_code": "KHTT-086-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B087-A",
+    "book_id": "B087",
+    "copy_code": "KHTT-087-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B087-B",
+    "book_id": "B087",
+    "copy_code": "KHTT-087-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B088-A",
+    "book_id": "B088",
+    "copy_code": "KHTT-088-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B088-B",
+    "book_id": "B088",
+    "copy_code": "KHTT-088-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B088-C",
+    "book_id": "B088",
+    "copy_code": "KHTT-088-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B089-A",
+    "book_id": "B089",
+    "copy_code": "KHTT-089-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B089-B",
+    "book_id": "B089",
+    "copy_code": "KHTT-089-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B090-A",
+    "book_id": "B090",
+    "copy_code": "KHTT-090-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B091-A",
+    "book_id": "B091",
+    "copy_code": "KHTT-091-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B091-B",
+    "book_id": "B091",
+    "copy_code": "KHTT-091-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B091-C",
+    "book_id": "B091",
+    "copy_code": "KHTT-091-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B092-A",
+    "book_id": "B092",
+    "copy_code": "KHTT-092-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B093-A",
+    "book_id": "B093",
+    "copy_code": "NGOAINGU-093-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B093-B",
+    "book_id": "B093",
+    "copy_code": "NGOAINGU-093-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B094-A",
+    "book_id": "B094",
+    "copy_code": "NGOAINGU-094-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B094-B",
+    "book_id": "B094",
+    "copy_code": "NGOAINGU-094-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B094-C",
+    "book_id": "B094",
+    "copy_code": "NGOAINGU-094-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B095-A",
+    "book_id": "B095",
+    "copy_code": "NGOAINGU-095-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B095-B",
+    "book_id": "B095",
+    "copy_code": "NGOAINGU-095-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B096-A",
+    "book_id": "B096",
+    "copy_code": "NGOAINGU-096-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B097-A",
+    "book_id": "B097",
+    "copy_code": "NGOAINGU-097-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B097-B",
+    "book_id": "B097",
+    "copy_code": "NGOAINGU-097-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B097-C",
+    "book_id": "B097",
+    "copy_code": "NGOAINGU-097-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B098-A",
+    "book_id": "B098",
+    "copy_code": "NGOAINGU-098-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B099-A",
+    "book_id": "B099",
+    "copy_code": "NGOAINGU-099-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B099-B",
+    "book_id": "B099",
+    "copy_code": "NGOAINGU-099-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B100-A",
+    "book_id": "B100",
+    "copy_code": "NGOAINGU-100-A",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B100-B",
+    "book_id": "B100",
+    "copy_code": "NGOAINGU-100-B",
+    "status": "available",
+    "condition_note": "Tốt"
+  },
+  {
+    "id": "CP-B100-C",
+    "book_id": "B100",
+    "copy_code": "NGOAINGU-100-C",
+    "status": "available",
+    "condition_note": "Tốt"
+  }
+]

@@ -1,0 +1,319 @@
+[
+  {
+    "id": "Q01",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Em hay bị căng thẳng lo lắng mất bình tĩnh trước kỳ thi học kỳ, có sách tâm lý nào giúp giảm áp lực không?",
+    "expected_book_ids": [
+      "B074",
+      "B088",
+      "B075"
+    ],
+    "notes": "Tìm theo vấn đề tâm lý mùa thi, không nhắc tên sách"
+  },
+  {
+    "id": "Q02",
+    "split": "calibration",
+    "query_type": "dong_nghia",
+    "query": "Cách bỏ tật nước đến chân mới nhảy, rèn kỷ luật tự giác mỗi ngày từng chút một",
+    "expected_book_ids": [
+      "B073",
+      "B081",
+      "B076"
+    ],
+    "notes": "Thành ngữ đồng nghĩa với trì hoãn và xây dựng thói quen nhỏ"
+  },
+  {
+    "id": "Q03",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Sách giải thích dễ hiểu về lỗ đen vũ trụ, vụ nổ Big Bang và thời gian cho học sinh phổ thông",
+    "expected_book_ids": [
+      "B033",
+      "B036",
+      "B039"
+    ],
+    "notes": "Chủ đề vật lý thiên văn đại chúng"
+  },
+  {
+    "id": "Q04",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Mới bắt đầu học viết code Python cơ bản từ con số 0 theo chương trình tin học ở trường",
+    "expected_book_ids": [
+      "B053",
+      "B054"
+    ],
+    "notes": "Nhu cầu học lập trình nhập môn"
+  },
+  {
+    "id": "Q05",
+    "split": "calibration",
+    "query_type": "dong_nghia",
+    "query": "Truyện viết về tình cảm học trò đơn phương buồn man mác ở quê làng Đo Đo",
+    "expected_book_ids": [
+      "B001",
+      "B002"
+    ],
+    "notes": "Mô tả nội dung Mắt Biếc không nêu nhan đề"
+  },
+  {
+    "id": "Q06",
+    "split": "calibration",
+    "query_type": "loi_go_khong_dau",
+    "query": "sach huong dan tu lam thi nghiem vat ly stem tu chai nhua tai che",
+    "expected_book_ids": [
+      "B040",
+      "B034"
+    ],
+    "notes": "Truy vấn tiếng Việt không dấu hoàn toàn"
+  },
+  {
+    "id": "Q07",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Tài liệu lịch sử về chiến thắng Điện Biên Phủ và quyết định đánh chắc tiến chắc",
+    "expected_book_ids": [
+      "B064",
+      "B063"
+    ],
+    "notes": "Tra cứu kiến thức lịch sử Việt Nam hiện đại"
+  },
+  {
+    "id": "Q08",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Làm sao để không bị điện thoại và mạng xã hội làm mất tập trung lúc ngồi vào bàn học?",
+    "expected_book_ids": [
+      "B081",
+      "B075",
+      "B073"
+    ],
+    "notes": "Vấn đề xao nhãng số khi tự học"
+  },
+  {
+    "id": "Q09",
+    "split": "calibration",
+    "query_type": "dong_nghia",
+    "query": "Bí quyết bảo vệ mật khẩu tài khoản, nhận biết đường link lừa đảo trên mạng internet",
+    "expected_book_ids": [
+      "B056",
+      "B062"
+    ],
+    "notes": "Từ đồng nghĩa về an toàn thông tin mạng"
+  },
+  {
+    "id": "Q10",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Em chưa biết lớp 12 nên chọn ngành nghề đại học nào phù hợp tính cách và năng lực bản thân",
+    "expected_book_ids": [
+      "B079",
+      "B076"
+    ],
+    "notes": "Nhu cầu hướng nghiệp THPT"
+  },
+  {
+    "id": "Q11",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Giải thích các phản ứng hóa học đời thường trong nhà bếp như làm bánh nở hay xà phòng tẩy rửa",
+    "expected_book_ids": [
+      "B043",
+      "B051"
+    ],
+    "notes": "Ứng dụng hóa học thực tiễn"
+  },
+  {
+    "id": "Q12",
+    "split": "calibration",
+    "query_type": "dong_nghia",
+    "query": "Câu chuyện chú dế kiêu ngạo ân hận sau cái chết của Dế Choắt rồi đi chu du thiên hạ",
+    "expected_book_ids": [
+      "B003"
+    ],
+    "notes": "Nhận diện tác phẩm văn học qua tình tiết"
+  },
+  {
+    "id": "Q13",
+    "split": "calibration",
+    "query_type": "loi_go_khong_dau",
+    "query": "phuong phap giai toan hinh hoc khong gian va toa do oxyz lop 11 12",
+    "expected_book_ids": [
+      "B026",
+      "B023"
+    ],
+    "notes": "Không dấu + viết tắt môn học"
+  },
+  {
+    "id": "Q14",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Tìm sách nói về chủ quyền quần đảo Hoàng Sa, Trường Sa và luật biển quốc tế",
+    "expected_book_ids": [
+      "B067",
+      "B066"
+    ],
+    "notes": "Chủ đề biển đảo Việt Nam"
+  },
+  {
+    "id": "Q15",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Cách vượt qua nỗi sợ run giọng khi đứng thuyết trình và tranh biện trước lớp",
+    "expected_book_ids": [
+      "B077",
+      "B078"
+    ],
+    "notes": "Kỹ năng mềm học đường"
+  },
+  {
+    "id": "Q16",
+    "split": "calibration",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Sách hướng dẫn lắp mạch điện tử Arduino cảm biến tưới cây tự động và làm robot dò đường",
+    "expected_book_ids": [
+      "B059",
+      "B040"
+    ],
+    "notes": "Dự án STEM Robotics"
+  },
+  {
+    "id": "Q17",
+    "split": "calibration",
+    "query_type": "dong_nghia",
+    "query": "Vì sao thức khuya học bài hại trí nhớ và vai trò của giấc ngủ đối với não bộ",
+    "expected_book_ids": [
+      "B088",
+      "B047",
+      "B075"
+    ],
+    "notes": "Khoa học giấc ngủ & ghi nhớ"
+  },
+  {
+    "id": "Q18",
+    "split": "calibration",
+    "query_type": "khong_co_sach",
+    "query": "Giáo trình kỹ thuật sửa chữa hộp số tự động ô tô tải hạng nặng và động cơ diesel tàu thủy",
+    "expected_book_ids": [],
+    "notes": "Câu phủ định ngoài phạm vi thư viện trường phổ thông (kiểm tra ngưỡng từ chối AI06 / TC19)"
+  },
+  {
+    "id": "Q19",
+    "split": "calibration",
+    "query_type": "khong_co_sach",
+    "query": "Sách hướng dẫn đầu tư chứng khoán phái sinh đòn bẩy cao và giao dịch tiền mã hóa ngắn hạn",
+    "expected_book_ids": [],
+    "notes": "Câu phủ định ngoài danh mục học đường (kiểm tra không gán ép kết quả sai)"
+  },
+  {
+    "id": "Q20",
+    "split": "calibration",
+    "query_type": "khong_co_sach",
+    "query": "Phác đồ phẫu thuật ghép gan chuyên sâu và gây mê hồi sức ngoại khoa bệnh viện tuyến cuối",
+    "expected_book_ids": [],
+    "notes": "Câu phủ định chuyên ngành y khoa sâu không có trong 100 đầu sách"
+  },
+  {
+    "id": "Q21",
+    "split": "holdout",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Em muốn học phương pháp ghi nhớ bài lâu bằng sơ đồ tư duy mindmap và ghi chép thông minh",
+    "expected_book_ids": [
+      "B100",
+      "B075"
+    ],
+    "notes": "Tập giữ lại: kỹ năng ghi chép và ôn thi"
+  },
+  {
+    "id": "Q22",
+    "split": "holdout",
+    "query_type": "dong_nghia",
+    "query": "Tiểu thuyết cảm động về người nông dân nghèo phải bán con bán chó giữa mùa sưu thuế trước cách mạng",
+    "expected_book_ids": [
+      "B006"
+    ],
+    "notes": "Tập giữ lại: mô tả cốt truyện Tắt Đèn không nhắc tên nhân vật chị Dậu"
+  },
+  {
+    "id": "Q23",
+    "split": "holdout",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Tìm sách giải thích nguyên lý hoạt động của trí tuệ nhân tạo học máy và cách dùng AI không đạo văn",
+    "expected_book_ids": [
+      "B055",
+      "B062"
+    ],
+    "notes": "Tập giữ lại: kiến thức và đạo đức AI"
+  },
+  {
+    "id": "Q24",
+    "split": "holdout",
+    "query_type": "loi_go_khong_dau",
+    "query": "cach quan ly tien tieu vat tiet kiem chi tieu hop ly cho hoc sinh",
+    "expected_book_ids": [
+      "B080"
+    ],
+    "notes": "Tập giữ lại: truy vấn không dấu về tài chính cá nhân học đường"
+  },
+  {
+    "id": "Q25",
+    "split": "holdout",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Tác hại của rác thải nhựa đại dương, hiệu ứng nhà kính và bảo vệ môi trường xanh ở trường",
+    "expected_book_ids": [
+      "B049",
+      "B052"
+    ],
+    "notes": "Tập giữ lại: môi trường và biến đổi khí hậu"
+  },
+  {
+    "id": "Q26",
+    "split": "holdout",
+    "query_type": "dong_nghia",
+    "query": "Hướng dẫn dùng Git chia nhánh quản lý mã nguồn khi làm bài tập lớn lập trình theo nhóm",
+    "expected_book_ids": [
+      "B061"
+    ],
+    "notes": "Tập giữ lại: kỹ năng phối hợp phần mềm"
+  },
+  {
+    "id": "Q27",
+    "split": "holdout",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Sách giúp ôn tập các thì ngữ pháp tiếng Anh, câu điều kiện và mệnh đề quan hệ thi tốt nghiệp",
+    "expected_book_ids": [
+      "B093",
+      "B095"
+    ],
+    "notes": "Tập giữ lại: ôn thi tiếng Anh phổ thông"
+  },
+  {
+    "id": "Q28",
+    "split": "holdout",
+    "query_type": "nhu_cau_tu_nhien",
+    "query": "Kỹ năng sơ cứu khi bị bỏng, chảy máu cam, bong gân lúc tập thể dục và phòng chống đuối nước",
+    "expected_book_ids": [
+      "B082"
+    ],
+    "notes": "Tập giữ lại: an toàn và sơ cứu học đường"
+  },
+  {
+    "id": "Q29",
+    "split": "holdout",
+    "query_type": "dong_nghia",
+    "query": "Truyện thiếu nhi về cậu bé mồ côi đi theo gánh xiếc rong cùng cụ già nhân hậu và chú chó Capi",
+    "expected_book_ids": [
+      "B015"
+    ],
+    "notes": "Tập giữ lại: mô tả Không Gia Đình"
+  },
+  {
+    "id": "Q30",
+    "split": "holdout",
+    "query_type": "khong_co_sach",
+    "query": "Luật thuế thu nhập doanh nghiệp xuyên biên giới và kế toán kiểm toán tập đoàn đa quốc gia",
+    "expected_book_ids": [],
+    "notes": "Tập giữ lại: câu không có sách phù hợp trong danh mục trường học (TC19)"
+  }
+]

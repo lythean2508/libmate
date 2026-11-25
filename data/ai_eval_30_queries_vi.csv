@@ -1,0 +1,31 @@
+﻿id,split,query_type,query,expected_book_ids,notes
+Q01,calibration,nhu_cau_tu_nhien,"Em hay bị căng thẳng lo lắng mất bình tĩnh trước kỳ thi học kỳ, có sách tâm lý nào giúp giảm áp lực không?",B074;B088;B075,"Tìm theo vấn đề tâm lý mùa thi, không nhắc tên sách"
+Q02,calibration,dong_nghia,"Cách bỏ tật nước đến chân mới nhảy, rèn kỷ luật tự giác mỗi ngày từng chút một",B073;B081;B076,Thành ngữ đồng nghĩa với trì hoãn và xây dựng thói quen nhỏ
+Q03,calibration,nhu_cau_tu_nhien,"Sách giải thích dễ hiểu về lỗ đen vũ trụ, vụ nổ Big Bang và thời gian cho học sinh phổ thông",B033;B036;B039,Chủ đề vật lý thiên văn đại chúng
+Q04,calibration,nhu_cau_tu_nhien,Mới bắt đầu học viết code Python cơ bản từ con số 0 theo chương trình tin học ở trường,B053;B054,Nhu cầu học lập trình nhập môn
+Q05,calibration,dong_nghia,Truyện viết về tình cảm học trò đơn phương buồn man mác ở quê làng Đo Đo,B001;B002,Mô tả nội dung Mắt Biếc không nêu nhan đề
+Q06,calibration,loi_go_khong_dau,sach huong dan tu lam thi nghiem vat ly stem tu chai nhua tai che,B040;B034,Truy vấn tiếng Việt không dấu hoàn toàn
+Q07,calibration,nhu_cau_tu_nhien,Tài liệu lịch sử về chiến thắng Điện Biên Phủ và quyết định đánh chắc tiến chắc,B064;B063,Tra cứu kiến thức lịch sử Việt Nam hiện đại
+Q08,calibration,nhu_cau_tu_nhien,Làm sao để không bị điện thoại và mạng xã hội làm mất tập trung lúc ngồi vào bàn học?,B081;B075;B073,Vấn đề xao nhãng số khi tự học
+Q09,calibration,dong_nghia,"Bí quyết bảo vệ mật khẩu tài khoản, nhận biết đường link lừa đảo trên mạng internet",B056;B062,Từ đồng nghĩa về an toàn thông tin mạng
+Q10,calibration,nhu_cau_tu_nhien,Em chưa biết lớp 12 nên chọn ngành nghề đại học nào phù hợp tính cách và năng lực bản thân,B079;B076,Nhu cầu hướng nghiệp THPT
+Q11,calibration,nhu_cau_tu_nhien,Giải thích các phản ứng hóa học đời thường trong nhà bếp như làm bánh nở hay xà phòng tẩy rửa,B043;B051,Ứng dụng hóa học thực tiễn
+Q12,calibration,dong_nghia,Câu chuyện chú dế kiêu ngạo ân hận sau cái chết của Dế Choắt rồi đi chu du thiên hạ,B003,Nhận diện tác phẩm văn học qua tình tiết
+Q13,calibration,loi_go_khong_dau,phuong phap giai toan hinh hoc khong gian va toa do oxyz lop 11 12,B026;B023,Không dấu + viết tắt môn học
+Q14,calibration,nhu_cau_tu_nhien,"Tìm sách nói về chủ quyền quần đảo Hoàng Sa, Trường Sa và luật biển quốc tế",B067;B066,Chủ đề biển đảo Việt Nam
+Q15,calibration,nhu_cau_tu_nhien,Cách vượt qua nỗi sợ run giọng khi đứng thuyết trình và tranh biện trước lớp,B077;B078,Kỹ năng mềm học đường
+Q16,calibration,nhu_cau_tu_nhien,Sách hướng dẫn lắp mạch điện tử Arduino cảm biến tưới cây tự động và làm robot dò đường,B059;B040,Dự án STEM Robotics
+Q17,calibration,dong_nghia,Vì sao thức khuya học bài hại trí nhớ và vai trò của giấc ngủ đối với não bộ,B088;B047;B075,Khoa học giấc ngủ & ghi nhớ
+Q18,calibration,khong_co_sach,Giáo trình kỹ thuật sửa chữa hộp số tự động ô tô tải hạng nặng và động cơ diesel tàu thủy,,Câu phủ định ngoài phạm vi thư viện trường phổ thông (kiểm tra ngưỡng từ chối AI06 / TC19)
+Q19,calibration,khong_co_sach,Sách hướng dẫn đầu tư chứng khoán phái sinh đòn bẩy cao và giao dịch tiền mã hóa ngắn hạn,,Câu phủ định ngoài danh mục học đường (kiểm tra không gán ép kết quả sai)
+Q20,calibration,khong_co_sach,Phác đồ phẫu thuật ghép gan chuyên sâu và gây mê hồi sức ngoại khoa bệnh viện tuyến cuối,,Câu phủ định chuyên ngành y khoa sâu không có trong 100 đầu sách
+Q21,holdout,nhu_cau_tu_nhien,Em muốn học phương pháp ghi nhớ bài lâu bằng sơ đồ tư duy mindmap và ghi chép thông minh,B100;B075,Tập giữ lại: kỹ năng ghi chép và ôn thi
+Q22,holdout,dong_nghia,Tiểu thuyết cảm động về người nông dân nghèo phải bán con bán chó giữa mùa sưu thuế trước cách mạng,B006,Tập giữ lại: mô tả cốt truyện Tắt Đèn không nhắc tên nhân vật chị Dậu
+Q23,holdout,nhu_cau_tu_nhien,Tìm sách giải thích nguyên lý hoạt động của trí tuệ nhân tạo học máy và cách dùng AI không đạo văn,B055;B062,Tập giữ lại: kiến thức và đạo đức AI
+Q24,holdout,loi_go_khong_dau,cach quan ly tien tieu vat tiet kiem chi tieu hop ly cho hoc sinh,B080,Tập giữ lại: truy vấn không dấu về tài chính cá nhân học đường
+Q25,holdout,nhu_cau_tu_nhien,"Tác hại của rác thải nhựa đại dương, hiệu ứng nhà kính và bảo vệ môi trường xanh ở trường",B049;B052,Tập giữ lại: môi trường và biến đổi khí hậu
+Q26,holdout,dong_nghia,Hướng dẫn dùng Git chia nhánh quản lý mã nguồn khi làm bài tập lớn lập trình theo nhóm,B061,Tập giữ lại: kỹ năng phối hợp phần mềm
+Q27,holdout,nhu_cau_tu_nhien,"Sách giúp ôn tập các thì ngữ pháp tiếng Anh, câu điều kiện và mệnh đề quan hệ thi tốt nghiệp",B093;B095,Tập giữ lại: ôn thi tiếng Anh phổ thông
+Q28,holdout,nhu_cau_tu_nhien,"Kỹ năng sơ cứu khi bị bỏng, chảy máu cam, bong gân lúc tập thể dục và phòng chống đuối nước",B082,Tập giữ lại: an toàn và sơ cứu học đường
+Q29,holdout,dong_nghia,Truyện thiếu nhi về cậu bé mồ côi đi theo gánh xiếc rong cùng cụ già nhân hậu và chú chó Capi,B015,Tập giữ lại: mô tả Không Gia Đình
+Q30,holdout,khong_co_sach,Luật thuế thu nhập doanh nghiệp xuyên biên giới và kế toán kiểm toán tập đoàn đa quốc gia,,Tập giữ lại: câu không có sách phù hợp trong danh mục trường học (TC19)

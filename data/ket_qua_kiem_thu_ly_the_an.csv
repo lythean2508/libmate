@@ -1,0 +1,12 @@
+﻿Mã ca,Chức năng,Mức độ,Tình huống,Phụ trách,Kết quả kiểm thử Frontend/Mock,Ngày chạy,Bằng chứng / Ghi chú tích hợp
+TC01,F03,Quan trọng,Đăng nhập sai / đăng xuất,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Pass test tự động tại frontend/src/test/an_uat.test.tsx; cần chạy lại với API FastAPI của Phạm Hiển ở Tuần 8"
+TC05,F04,Thường,Tìm tên sách và tác giả,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Tìm đúng cả có dấu ('Mắt Biếc') và không dấu ('mat biec', 'nguyen nhat anh') trên bộ 100 đầu sách"
+TC06,F04,Thường,Danh mục rỗng và phân trang,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Hiển thị EmptyState an toàn khi 0 kết quả; sang trang 2 vẫn bảo toàn bộ lọc chủ đề"
+TC10,F06,Thường,Hủy pending và hủy đã giao,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Yêu cầu pending hủy thành công; yêu cầu fulfilled bị chặn hủy tại luồng người đọc"
+TC17,F09,Quan trọng,Đối chiếu báo cáo với dữ liệu,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Khớp chính xác 100 sách, 201 bản sao (196 sẵn có, 3 đang mượn, 2 bảo trì, 1 quá hạn) & xuất CSV UTF-8 BOM"
+TC18,F10,Thường,Tìm ngữ nghĩa tiếng Việt,Lý Thế An,Đạt (Local Semantic Engine),2026-11-25,"Đạt mục tiêu Hit@5 >= 80% trên tập giữ lại 10 câu (xem chi tiết tại docs/03-bao-cao-danh-gia-ai-T33.md)"
+TC19,F10,Thường,Câu hỏi không có sách phù hợp,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Các câu ngoài danh mục (Q18, Q19, Q20, Q30) trả rỗng kèm thông báo dưới ngưỡng gợi ý và nút chuyển tìm từ khóa"
+TC25,F11,Thường,Sách tương tự và phản hồi,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Loại trừ sách đang xem & sách ẩn; lưu đúng phản hồi Hữu ích / Chưa phù hợp theo từng người dùng"
+TC26,F12,Thường,Yêu thích theo tài khoản,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Thêm/bỏ yêu thích không trùng lặp và tách biệt hoàn toàn giữa hai tài khoản người đọc"
+TC30,F14,Thường,Desktop và điện thoại,Lý Thế An,Đạt (Frontend/Mock),2026-11-25,"Giao diện đáp ứng 1 cột dưới 720px, nút mở Menu di động và bảng cuộn ngang không tràn màn hình"
+TC31,F14,Quan trọng,UAT mượn-trả xuyên suốt,Lý Thế An,Đạt trên Frontend (Chờ UAT tích hợp Backend),2026-11-25,"Pass kiểm thử xuyên suốt: PILOT01 đặt mượn -> LIB001 giao bản sao tại quầy -> xác nhận trả sách"

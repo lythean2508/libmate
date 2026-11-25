@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+coverage/
+frontend/coverage/
+*.tsbuildinfo
+
+# Python / Backend (Phạm Hiển)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+*.db
+*.sqlite
+*.sqlite3
+models_cache/
+embeddings_cache/
+
+# Environment & secrets (never commit real secrets - T46)
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+
+# Logs & OS files
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
