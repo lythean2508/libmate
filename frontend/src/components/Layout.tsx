@@ -19,12 +19,9 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
     <div className="app-shell">
       <header className="topbar">
         <div className="topbar-inner">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <Link to="/" className="brand" onClick={() => setMobileOpen(false)}>
-              <span className="brand-badge">LibMate</span>
-              <span>Thư viện AI Trường học</span>
-            </Link>
-          </div>
+          <Link to="/" className="brand" onClick={() => setMobileOpen(false)}>
+            <span className="brand-wordmark">LibMate</span>
+          </Link>
 
           <button
             type="button"
@@ -37,13 +34,13 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
 
           <nav className={`nav-links ${mobileOpen ? 'open' : ''}`} aria-label="Điều hướng chính">
             <NavLink to="/" end className="nav-link" onClick={() => setMobileOpen(false)}>
-              Danh mục & AI
+              Danh mục &amp; AI
             </NavLink>
 
             {user && (
               <>
                 <NavLink to="/my-loans" className="nav-link" onClick={() => setMobileOpen(false)}>
-                  Mượn & Lịch sử
+                  Mượn &amp; Lịch sử
                 </NavLink>
                 <NavLink to="/favorites" className="nav-link" onClick={() => setMobileOpen(false)}>
                   Yêu thích ({favoriteIds.size})
@@ -66,14 +63,14 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
                   className="nav-link nav-link-librarian"
                   onClick={() => setMobileOpen(false)}
                 >
-                  Kho sách & Bản sao
+                  Kho sách &amp; Bản sao
                 </NavLink>
                 <NavLink
                   to="/librarian/reports"
                   className="nav-link nav-link-librarian"
                   onClick={() => setMobileOpen(false)}
                 >
-                  Báo cáo & CSV
+                  Báo cáo &amp; CSV
                 </NavLink>
               </>
             )}
@@ -86,15 +83,15 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
           <div className="user-area">
             {user ? (
               <>
-                <span className="badge badge-info" title={`Mã: ${user.reader_code}`}>
-                  {user.role === 'librarian' ? 'Thủ thư' : 'Bạn đọc'}: {user.name}
+                <span className="user-pill" title={`Mã: ${user.reader_code}`}>
+                  {user.role === 'librarian' ? 'Thủ thư' : 'Bạn đọc'} · {user.name}
                 </span>
                 <button type="button" className="btn btn-outline btn-sm" onClick={handleLogout}>
                   Đăng xuất
                 </button>
               </>
             ) : (
-              <Link to="/login" className="btn btn-primary btn-sm">
+              <Link to="/login" className="btn btn-outline btn-sm">
                 Đăng nhập
               </Link>
             )}
@@ -109,9 +106,6 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
             <div>
               <strong>{hasOverdue ? 'Cảnh báo quá hạn trả sách:' : 'Nhắc hạn trả trong ứng dụng:'}</strong>{' '}
               Bạn có {dueAlerts.length} cuốn đang mượn {hasOverdue ? 'đã quá hạn hoặc ' : ''}sắp đến hạn trả.
-              <span style={{ opacity: 0.85, marginLeft: '0.4rem' }}>
-                (Thông báo hiển thị trong ứng dụng — MVP chưa gửi Email/SMS)
-              </span>
             </div>
             <Link to="/my-loans" className="btn btn-outline btn-sm">
               Xem phiếu mượn
@@ -123,7 +117,7 @@ export const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) =>
       <main className="container">{children}</main>
 
       <footer className="footer">
-        LibMate MVP — Thư viện trường học tích hợp AI local miễn phí • Nhóm phát triển: Lý Thế An &amp; Phạm Hiển
+        LibMate — Thư viện trường học tích hợp AI local
       </footer>
     </div>
   );
