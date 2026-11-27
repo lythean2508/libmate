@@ -2,8 +2,12 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { libraryStore } from '../services/libraryStore';
+import { GoogleSignIn } from '../components/GoogleSignIn';
+import { useGoogleAuth } from '../context/GoogleAuthContext';
+import { Link } from 'react-router-dom';
 
 export const LoginPage: React.FC = () => {
+  const { session: googleSession } = useGoogleAuth();
   const { login } = useAuth();
   const navigate = useNavigate();
 
@@ -51,6 +55,8 @@ export const LoginPage: React.FC = () => {
 
   return (
     <div style={{ maxWidth: '640px', margin: '1rem auto' }}>
+      {googleSession?.user ? <div className="google-connected-card"><strong>Đã đăng nhập Google · {googleSession.user.name}</strong><Link to="/">Trò chuyện với Gemini</Link></div> : <GoogleSignIn />}
+      <div className="library-login-divider">Tài khoản thẻ thư viện · Dành cho mượn/trả và quản lý sách</div>
       <div className="card">
         <div className="tabs">
           <button

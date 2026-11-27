@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { AvailabilityBadge, ErrorState } from '../components/StateViews';
+import { BookCover, BookLanguage, BookSourceLink } from '../components/BookMedia';
 import { useAuth } from '../context/AuthContext';
 import { libraryStore } from '../services/libraryStore';
 import type { BookCopy, BookWithAvailability } from '../types/library';
@@ -93,7 +94,7 @@ export const BookDetailPage: React.FC = () => {
   return (
     <div>
       <div style={{ marginBottom: '1rem' }}>
-        <Link to="/">← Quay lại danh mục sách</Link>
+        <Link to="/catalog">Quay lại danh mục sách</Link>
       </div>
 
       {message && (
@@ -102,7 +103,9 @@ export const BookDetailPage: React.FC = () => {
         </div>
       )}
 
-      <div className="card" style={{ marginBottom: '1.25rem' }}>
+      <div className="card book-detail-card" style={{ marginBottom: '1.25rem' }}>
+        <div className="book-detail-media"><BookCover book={book} size="detail" eager /><BookSourceLink book={book} /></div>
+        <div className="book-detail-content">
         <div style={{ display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '0.5rem' }}>
           <div style={{ display: 'flex', gap: '0.45rem', flexWrap: 'wrap' }}>
             <span className="badge badge-info">{book.category}</span>
@@ -117,6 +120,8 @@ export const BookDetailPage: React.FC = () => {
         <div style={{ color: 'var(--text-muted)', fontWeight: 600, marginBottom: '0.9rem' }}>
           Tác giả: {book.author}
         </div>
+        <BookLanguage book={book} />
+        {book.isbn && <p className="book-edition-isbn">ISBN: {book.isbn}</p>}
 
         <p style={{ margin: '0 0 0.85rem', fontSize: '0.96rem' }}>{book.description}</p>
 
@@ -148,6 +153,7 @@ export const BookDetailPage: React.FC = () => {
               Đăng nhập để gửi yêu cầu mượn
             </Link>
           )}
+        </div>
         </div>
       </div>
 
@@ -192,7 +198,9 @@ export const BookDetailPage: React.FC = () => {
         <div className="grid-books">
           {similar.map((sim) => (
             <article key={sim.id} className="card book-card">
-              <div>
+              <div className="catalog-book-main">
+                <BookCover book={sim} />
+                <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.35rem' }}>
                   <span className="badge badge-info">{sim.category}</span>
                   <span className="badge badge-neutral">Kệ {sim.shelf}</span>
@@ -202,7 +210,9 @@ export const BookDetailPage: React.FC = () => {
                 </h3>
                 <div style={{ fontSize: '0.84rem', color: 'var(--text-muted)' }}>{sim.author}</div>
                 <p className="book-desc-clamp">{sim.description}</p>
+                </div>
               </div>
+              <BookSourceLink book={sim} />
 
               <div>
                 <div style={{ marginBottom: '0.5rem' }}>

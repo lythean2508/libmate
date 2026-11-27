@@ -3,8 +3,10 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import { Layout } from './components/Layout';
 import { ErrorState } from './components/StateViews';
 import { useAuth } from './context/AuthContext';
+import { useGoogleAuth } from './context/GoogleAuthContext';
 import { BookDetailPage } from './pages/BookDetailPage';
 import { CatalogPage } from './pages/CatalogPage';
+import { ChatPage } from './pages/ChatPage';
 import { FavoritesPage } from './pages/FavoritesPage';
 import { GuidePage } from './pages/GuidePage';
 import { LibrarianBooksPage } from './pages/LibrarianBooksPage';
@@ -35,10 +37,12 @@ const RequireLibrarian: React.FC<{ children: React.ReactNode }> = ({ children })
 };
 
 export const App: React.FC = () => {
+  const { session: googleSession } = useGoogleAuth();
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<CatalogPage />} />
+        <Route path="/" element={<ChatPage key={googleSession?.user?.id ?? 'guest'} />} />
+        <Route path="/catalog" element={<CatalogPage />} />
         <Route path="/books/:id" element={<BookDetailPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/guide" element={<GuidePage />} />

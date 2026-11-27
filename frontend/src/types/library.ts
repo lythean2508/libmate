@@ -31,6 +31,13 @@ export interface Book {
   word_count: number;
   missing_description: boolean;
   metadata_source: string;
+  cover_image?: string;
+  cover_title?: string;
+  source_url?: string;
+  source_name?: string;
+  isbn?: string;
+  catalog_revision?: string;
+  language?: string;
   license_verified: boolean;
   visible: boolean;
   created_at: string;

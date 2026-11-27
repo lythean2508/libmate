@@ -1,10 +1,11 @@
 import React from 'react';
 import { describe, expect, it } from 'vitest';
-import { render, screen, within } from '@testing-library/react';
+import { render, screen, within, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
 import { App } from '../App';
 import { AuthProvider } from '../context/AuthContext';
+import { GoogleAuthProvider } from '../context/GoogleAuthContext';
 import { EVAL_QUERIES_30 } from '../data/seedCatalog';
 import { libraryStore } from '../services/libraryStore';
 
@@ -15,7 +16,7 @@ function renderApp(initialRoute = '/') {
       future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
     >
       <AuthProvider>
-        <App />
+        <GoogleAuthProvider><App /></GoogleAuthProvider>
       </AuthProvider>
     </MemoryRouter>
   );
@@ -30,6 +31,7 @@ describe('Bộ kiểm thử UAT & Nghiệp vụ của Lý Thế An (TC01..TC31)'
     expect(session.user.role).toBe('reader');
 
     renderApp('/');
+    await waitFor(() => expect(screen.queryByText('Đang kiểm tra đăng nhập…')).not.toBeInTheDocument());
     expect(screen.queryByText(/Quầy Giao\/Trả/i)).not.toBeInTheDocument();
     expect(screen.queryByText(/Kho sách & Bản sao/i)).not.toBeInTheDocument();
 
@@ -272,6 +274,7 @@ describe('Bộ kiểm thử UAT & Nghiệp vụ của Lý Thế An (TC01..TC31)'
     await user.click(screen.getByRole('button', { name: /^Đăng nhập$/i }));
 
     // Mở sách chi tiết đầu tiên và đặt yêu cầu mượn
+    await user.click(screen.getByRole('link', { name: /Danh mục sách/i }));
     const firstBookLink = screen.getByRole('link', { name: 'Mắt Biếc' });
     await user.click(firstBookLink);
     await user.click(screen.getByRole('button', { name: /Gửi yêu cầu mượn đầu sách này/i }));

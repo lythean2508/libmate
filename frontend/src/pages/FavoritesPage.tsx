@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
 import { AvailabilityBadge, EmptyState } from '../components/StateViews';
+import { BookCover, BookLanguage, BookSourceLink } from '../components/BookMedia';
 import { useAuth } from '../context/AuthContext';
 import { libraryStore } from '../services/libraryStore';
 
@@ -39,7 +40,9 @@ export const FavoritesPage: React.FC = () => {
         <div className="grid-books">
           {favorites.map((book) => (
             <article key={book.id} className="card book-card">
-              <div>
+              <div className="catalog-book-main">
+                <BookCover book={book} />
+                <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.35rem' }}>
                   <span className="badge badge-info">{book.category}</span>
                   <span className="badge badge-neutral">Kệ {book.shelf}</span>
@@ -49,7 +52,9 @@ export const FavoritesPage: React.FC = () => {
                 </h2>
                 <div style={{ fontSize: '0.86rem', color: 'var(--text-muted)' }}>{book.author}</div>
                 <p className="book-desc-clamp">{book.description}</p>
+                </div>
               </div>
+              <div className="book-source-row"><BookSourceLink book={book} /><BookLanguage book={book} /></div>
 
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
                 <AvailabilityBadge available={book.available_copies} total={book.total_copies} />

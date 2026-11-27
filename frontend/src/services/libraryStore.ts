@@ -1,4 +1,5 @@
 import { SEED_BOOKS, SEED_COPIES } from '../data/seedCatalog';
+import { migrateCatalog } from './catalogMigration';
 import type {
   AuditLogEntry,
   AuthSession,
@@ -293,7 +294,10 @@ class LibraryService {
       if (typeof localStorage !== 'undefined') {
         const raw = localStorage.getItem(STORAGE_KEY);
         if (raw) {
-          return JSON.parse(raw) as DatabaseState;
+          const previous = JSON.parse(raw) as DatabaseState;
+          const migrated = migrateCatalog(previous);
+          if (migrated !== previous) this.saveState(migrated);
+          return migrated;
         }
       }
     } catch {

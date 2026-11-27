@@ -55,6 +55,28 @@ libmate/
 
 ## 3. Hướng dẫn cài đặt và chạy nhanh trên máy sạch
 
+### Giao diện chat tìm sách
+
+Trang chủ hiện là khung trò chuyện **LibMate**. Nhập “em muốn học toán”, “em muốn học lập trình Python” hoặc tên sách/tác giả; ứng dụng tự tìm sách trong danh mục, hiển thị mô tả, vị trí kệ, số bản còn lại và liên kết xem/đặt mượn. Hỗ trợ tiếng Việt không dấu, câu hỏi tiếp “còn sách nào khác không?”, lọc sách còn bản và bắt đầu cuộc trò chuyện mới. Danh mục đầy đủ ở `/catalog`.
+
+Phần chat dùng **Gemini 3.5 Flash-Lite** bên ngoài qua API chính thức của Google. **Đăng nhập Google trước khi dùng AI** bằng nút Google ngay trong LibMate. Máy chủ xác minh ID token, tạo phiên cookie HttpOnly và kiểm tra phiên cho từng lần gọi AI. Chỉ gửi câu hỏi, tối đa 8 tin nhắn ngữ cảnh và metadata sách; không gửi thông tin tài khoản Google hay phiếu mượn cho Gemini. Các thẻ sách được đối chiếu với danh mục thật. Khi Gemini lỗi hoặc hết quota, ứng dụng ghi rõ đang dùng tìm kiếm thư viện dự phòng; yêu cầu đăng nhập vẫn được giữ nguyên.
+
+Gemini có Free Tier với hạn mức theo tài khoản/dự án, không phải miễn phí không giới hạn. Dùng API key của dự án Free Tier nếu muốn chạy không tính phí. Xem [giá Gemini](https://aistudio.google.com/docs/pricing#gemini-3.5-flash-lite). Google Sign-In dùng thông tin cơ bản `openid`, `email`, `profile`; không yêu cầu Gmail hay Drive. Tài khoản Google dùng cho AI; tài khoản thẻ thư viện hiện có tiếp tục dùng cho mượn/trả và vai trò thủ thư.
+
+Tạo `frontend/.env.local` với các biến sau (tệp đã được Git bỏ qua; không đặt API key trong biến `VITE_*`):
+
+```dotenv
+GEMINI_API_KEY=your_private_gemini_key
+GEMINI_MODEL=gemini-3.5-flash-lite
+GOOGLE_CLIENT_ID=your_web_client.apps.googleusercontent.com
+```
+
+Trong Google Auth Platform, tạo OAuth client loại **Web application**, khai báo origins `http://localhost:5173` và `http://localhost:4173`. Khi ở chế độ Testing, thêm email dùng thử vào Test users. Khởi động lại Vite sau khi sửa cấu hình, rồi mở **http://localhost:5173/** (không dùng địa chỉ IP cho Google Sign-In). Không cần Client Secret cho luồng Google Identity Services này. Xem [thiết lập Google Sign-In](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid).
+
+Các endpoint `/api/ai/session` và `/api/ai/chat` chạy trong máy chủ Vite, dùng được với `npm run dev` và `npm run preview`. Nếu triển khai riêng tệp tĩnh `dist/`, cần triển khai thêm máy chủ cho các endpoint này. Hội thoại được giữ trong bộ nhớ khi mở chi tiết sách rồi quay lại; tải lại trang sẽ bắt đầu lại.
+
+Các màn hình hiện dùng dữ liệu `localStorage`. Lớp `apiClient` đã có sẵn nhưng chưa được nối vào các màn hình, nên đổi `VITE_API_MODE=api` chưa tự động chuyển giao diện sang FastAPI/SQLite.
+
 Yêu cầu: **Node.js >= 20** và **npm**.
 
 ```bash
@@ -79,6 +101,10 @@ npm run build
 
 ## 4. Tài khoản thử nghiệm có sẵn
 
+Danh mục đã đối chiếu gồm **100 sách thật**, với bìa lưu tại `frontend/public/covers/` và liên kết trực tiếp trên danh mục, kết quả chat, chi tiết, mục yêu thích. Có 7 ấn bản tiếng Anh được ghi rõ ngôn ngữ. Nguồn và dấu kiểm tra ảnh nằm trong `data/book_sources_100.json`; tên tập, bản truyện tranh và tác giả được đồng bộ trong dữ liệu seed. Liên kết dẫn đến trang giới thiệu, mua hoặc đọc sách tùy nguồn, không mặc định là toàn văn miễn phí.
+
+Khi tải lại ứng dụng, các mục demo chưa được sửa sẽ tự cập nhật; tài khoản, mã sách, bản sao, kệ, trạng thái ẩn, phiếu mượn/trả và yêu thích được giữ lại. Những mục đã được thủ thư sửa tên, tác giả hoặc mô tả được giữ nguyên. Báo cáo đánh giá 30 câu T33 cũ dùng nhãn của danh mục demo, cần gán nhãn lại trước khi dùng để kết luận chất lượng tìm kiếm trên danh mục mới.
+
 | Vai trò | Mã đăng nhập | Mật khẩu | Mục đích kiểm thử |
 | :--- | :--- | :--- | :--- |
 | **Thủ thư** | `LIB001` | `libmate123` | Toàn quyền Quầy giao/trả, Quản lý sách/bản sao, Báo cáo & Xuất CSV |
@@ -93,4 +119,4 @@ npm run build
 
 - Sao chép `frontend/.env.example` thành `frontend/.env`.
 - Khi chạy độc lập để phát triển giao diện / demo sớm: giữ `VITE_API_MODE=mock`.
-- Khi ghép với FastAPI + SQLite (`http://localhost:8000`) của Phạm Hiển: đổi `VITE_API_MODE=api` và đối chiếu hợp đồng endpoint tại [`docs/02-thiet-ke-luong-va-giao-dien-T02.md`](docs/02-thiet-ke-luong-va-giao-dien-T02.md).
+- Để ghép với FastAPI + SQLite (`http://localhost:8000`), cần nối các màn hình đang dùng `libraryStore` sang `apiClient`, rồi đổi `VITE_API_MODE=api` và đối chiếu hợp đồng endpoint tại [`docs/02-thiet-ke-luong-va-giao-dien-T02.md`](docs/02-thiet-ke-luong-va-giao-dien-T02.md).

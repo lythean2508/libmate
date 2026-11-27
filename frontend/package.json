@@ -13,6 +13,7 @@
     "eval:ai": "npx tsx scripts/runAiEval.ts"
   },
   "dependencies": {
+    "google-auth-library": "^11.3.4",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
